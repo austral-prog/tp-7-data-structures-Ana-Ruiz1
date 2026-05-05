@@ -143,4 +143,4 @@ def filter_positives(numeros):
     for i in numeros:
         if i > 0:
             lista.append(i)
-    return tupla(lista)
+    return tuple(lista)
