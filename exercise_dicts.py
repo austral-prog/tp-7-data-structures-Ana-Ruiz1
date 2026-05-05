@@ -115,7 +115,7 @@ def find_max_value(diccionario):
     if len(diccionario) == 0:
       return ""
     nombre_max = ""
-    puntaje_max = -1
+    puntaje_max = float('-inf')
     for nombre, puntaje in diccionario.items():
         if puntaje > puntaje_max:
             puntaje_max = puntaje
