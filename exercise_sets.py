@@ -20,7 +20,7 @@ def clean_ingredients(nombre_plato, ingredientes):
         Una tupla (nombre_plato, set_de_ingredientes_sin_duplicados)
     """
     ingredientes_limpios = set(ingredientes)
-    return tuple(nombre_plato, ingredientes_limpios)
+    return (nombre_plato, ingredientes_limpios)
 
 def check_drinks(nombre_bebida, ingredientes):
     """
